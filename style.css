@@ -42,10 +42,14 @@ ul {
 .hero{
     margin: 24px;
     display: flex;
+    justify-content: space-between;
+   align-items: center;
+   
 }
 .hero-left {
     width: 300px;
-    display: ;
+    flex: 0.5;
+    
 }
 p {
     margin-top: 0px;
@@ -66,10 +70,16 @@ font-size: 18px;
 padding: 16px;
 border-radius: 16px;
 }
-.hero-image {
-    width: max-content;
-}
+
 .hero img {
     max-height: 300px;
     max-width: 300px;
+    
+}
+.hero-right{
+    display: flex;
+    width: 600px;
+    flex: 1.8;
+    justify-content: center;
+
 }
