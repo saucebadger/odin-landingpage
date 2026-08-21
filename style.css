@@ -109,3 +109,36 @@ flex-direction: column;
 }
 
 .item p {color: #1f2937;}
+
+
+/*Quote section*/
+
+.quote {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.text p {
+    font-size: 28px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+    padding: 16px;
+}
+.text {
+    width: 500px;
+    padding: 8px;
+    
+    
+}
+
+.text h4 {
+    display: flex;
+    width: 600px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
